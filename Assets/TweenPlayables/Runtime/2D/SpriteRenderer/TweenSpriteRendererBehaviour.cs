@@ -6,7 +6,7 @@ namespace TweenPlayables
     [Serializable]
     public sealed class TweenSpriteRendererBehaviour : TweenAnimationBehaviour<SpriteRenderer>
     {
-        [SerializeField] readonly ColorTweenParameter color;
+        [SerializeField] ColorTweenParameter color;
 
         public ReadOnlyTweenParameter<Color> Color => color;
 
