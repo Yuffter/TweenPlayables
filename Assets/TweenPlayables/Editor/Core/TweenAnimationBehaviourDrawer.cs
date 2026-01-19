@@ -10,23 +10,20 @@ namespace TweenPlayables.Editor
 
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {
-            position.y += 7f;
+            EditorGUI.BeginProperty(position, label, property);
+    
+            EditorGUILayout.BeginVertical();
+    
             foreach (var propertyName in GetPropertyNames())
             {
-                GUIHelper.Field(ref position, property.FindPropertyRelative(propertyName));
-                position.y += 2f;
+                var childProperty = property.FindPropertyRelative(propertyName);
+                EditorGUILayout.PropertyField(childProperty);
+                GUILayout.Space(5f);
             }
-        }
-
-        public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
-        {
-            var height = 9f;
-            foreach (var propertyName in GetPropertyNames())
-            {
-                height += EditorGUI.GetPropertyHeight(property.FindPropertyRelative(propertyName));
-            }
-
-            return height;
+    
+            EditorGUILayout.EndVertical();
+    
+            EditorGUI.EndProperty();
         }
     }
 }
