@@ -12,7 +12,7 @@ Tween Playables is a library that adds tween animation tracks to Unity Timeline.
 
 ### Features
 
-<img src="https://github.com/AnnulusGames/TweenPlayables/blob/main/Assets/TweenPlayables/Documentation~/sample.gif" width="800">
+<img src="https://github.com/Yuffter/TweenPlayables/blob/main/Assets/TweenPlayables/Documentation~/sample.gif" width="800">
 
 * Add tracks for tween animation
 * More than 20 types of easing functions available
