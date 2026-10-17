@@ -39,7 +39,7 @@ or open Packages/manifest.json and add the following to the dependencies block.
 ```json
 {
     "dependencies": {
-        "com.annulusgames.tween-playables": "https://github.com/AnnulusGames/TweenPlayables.git?path=/Assets/TweenPlayables"
+        "com.annulusgames.tween-playables": "https://github.com/Yuffter/TweenPlayables.git?path=/Assets/TweenPlayables"
     }
 }
 ```
