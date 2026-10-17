@@ -31,7 +31,7 @@ Tween Playables is a library that adds tween animation tracks to Unity Timeline.
 1. Open the Package Manager from Window > Package Manager
 2. "+" button > Add package from git URL
 3. Enter the following to install
-   * https://github.com/AnnulusGames/TweenPlayables.git?path=/Assets/TweenPlayables
+   * https://github.com/Yuffter/TweenPlayables.git?path=/Assets/TweenPlayables
 
 
 or open Packages/manifest.json and add the following to the dependencies block.
